@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/donjude-eng/monsters-App/static/css/main.e75202ad.chunk.css",
+    "main.js": "/donjude-eng/monsters-App/static/js/main.73f1a13f.chunk.js",
+    "main.js.map": "/donjude-eng/monsters-App/static/js/main.73f1a13f.chunk.js.map",
+    "runtime-main.js": "/donjude-eng/monsters-App/static/js/runtime-main.63be5860.js",
+    "runtime-main.js.map": "/donjude-eng/monsters-App/static/js/runtime-main.63be5860.js.map",
+    "static/js/2.c7505f2e.chunk.js": "/donjude-eng/monsters-App/static/js/2.c7505f2e.chunk.js",
+    "static/js/2.c7505f2e.chunk.js.map": "/donjude-eng/monsters-App/static/js/2.c7505f2e.chunk.js.map",
+    "index.html": "/donjude-eng/monsters-App/index.html",
+    "precache-manifest.b84144eda600e879efcb655ced41e000.js": "/donjude-eng/monsters-App/precache-manifest.b84144eda600e879efcb655ced41e000.js",
+    "service-worker.js": "/donjude-eng/monsters-App/service-worker.js",
+    "static/css/main.e75202ad.chunk.css.map": "/donjude-eng/monsters-App/static/css/main.e75202ad.chunk.css.map",
+    "static/js/2.c7505f2e.chunk.js.LICENSE.txt": "/donjude-eng/monsters-App/static/js/2.c7505f2e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63be5860.js",
+    "static/js/2.c7505f2e.chunk.js",
+    "static/css/main.e75202ad.chunk.css",
+    "static/js/main.73f1a13f.chunk.js"
+  ]
+}
