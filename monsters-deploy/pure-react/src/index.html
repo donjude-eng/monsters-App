@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="root">React not Rendered</div>
 
-    <script src="https://unpkg.com/react@16.8.6/umd/react.development.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
 
-    <script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
+    <body>
+        <div id="root">React not Rendered</div>
 
-    <script>
+        <script src="https://unpkg.com/react@16.8.6/umd/react.development.js"></script>
 
+        <script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
 
-    </script>
+        <script>
+            const Person = (props) => {
+                return React.createElement("div", {}, [
+                    React.createElement("h1", {}, props.name),
+                    React.createElement("p", {}, props.occupation),
+                ])
+            }
 
-</body>
+            class App extends React.Component {
+                render() {
+                    return React.createElement("div", {},
+                        [
+                            React.createElement('h1', {}, 'REACT IS RENDERED!!!'),
+                            React.createElement(Person, { name: 'Test-1', occupation: 'Developer' }),
+                            React.createElement(Person, { name: 'Test-2', occupation: 'Developer' }),
+                            React.createElement(Person, { name: 'Test-3', occupation: 'Developer' }),
+                        ]
+                    );
+
+                }
+            }
+
+            ReactDOM.render(React.createElement(App), document.getElementById('root'));
+
+        </script>
+
+    </body>
+
 </html>
